@@ -338,7 +338,7 @@ QLineEdit {
 QTreeView {
 	font: 16px;
 	show-decoration-selected: 0;
-	background: rgba(238, 238, 238, 200);
+	background-color: rgba(238, 238, 238, 200);
 }
 
 QTreeView::item {
