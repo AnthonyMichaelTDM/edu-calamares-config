@@ -99,7 +99,7 @@ QListWidget::item:alternate {
 
 QToolTip {
 	background-color: #58B2D7;
-  font : 16px;
+	font : 16px;
 	color: white;
 	padding: 3px;
 	border: none;
@@ -338,6 +338,7 @@ QLineEdit {
 QTreeView {
 	font: 16px;
 	show-decoration-selected: 0;
+	background: rgba(238, 238, 238, 200);
 }
 
 QTreeView::item {

@@ -30,20 +30,6 @@ The examples are not exhaustive.
  * the class name. Some widgets have specialized sub-selectors.
  */
 
-/* ########## TOOL TIP ########## */
-QToolTip {
-	background-color: #58B2D7;
-	color: white;
-	padding: 3px;
-	border: none;
-}
-
-/* ########## TREE VIEW ########## */
-QTreeView {
-	background-color: rgba(238, 238, 238, 200);
-}
-
-
 /*** Main application window.
  *
  * The main application window has the sidebar, which in turn
@@ -53,15 +39,9 @@ QTreeView {
  */
 
 /*
-#mainApp {
-	background-color: rgba(238, 238, 238, 200);
-}
-#sidebarApp {
-	padding: 3px;
-}
-#logoApp {
-	padding: 3px;
-}
+#mainApp { }
+#sidebarApp { }
+#logoApp { }
 */
 
 /*** Welcome module.
