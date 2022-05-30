@@ -100,7 +100,7 @@ QListWidget::item:alternate {
 QToolTip {
 	background-color: #58B2D7;
 	font : 16px;
-	color: white;
+	color: #A5A4AA;
 	padding: 3px;
 	border: none;
 }
@@ -150,37 +150,37 @@ QListView {
 
 QListView::item:alternate {
 	color: #58B2D7;
-	color: white;
+	color: #A5A4AA;
 }
 
 QListView::item:!alternate:selected:active {
 	background: #58B2D7;
-	color: white;
+	color: #A5A4AA;
 }
 
 QListView::item:selected:active {
 	background: #58B2D7;
-	color: white;
+	color: #A5A4AA;
 }
 
 QListView::item:selected:!active {
 	background: #58B2D7;
-	color: white;
+	color: #A5A4AA;
 }
 
 QListView::item:hover {
 	background: #58B2D7;
-	color: white;
+	color: #A5A4AA;
 }
 
 QListView#listLayout::item:!alternate:selected:active {
 	background: #58B2D7;
-	color: white;
+	color: #A5A4AA;
 }
 
 QListView#listVariant::item:!alternate:selected:active {
 	background: #58B2D7;
-	color: white;
+	color: #A5A4AA;
 }
 
 
@@ -316,7 +316,7 @@ QComboBox {
 
 QComboBox::item:selected {
 	background: #58B2D7;
-	color: white;
+	color: #A5A4AA;
 }
 
 #mountPointComboBox::drop-down {
