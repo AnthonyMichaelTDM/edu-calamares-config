@@ -61,6 +61,15 @@ QAbstractSpinBox {
 QListWidget::item:alternate {
 }
 
+#view-button-back {
+	background: #A5A4AA;
+}
+#view-button-next {
+	background: #A5A4AA;
+}
+#view-button-cancel {
+	background: #A5A4AA;
+}
 #view-button-back:hover {
 	color: #58B2D7;
 }
@@ -73,7 +82,7 @@ QListWidget::item:alternate {
 
 #debugButton {
 	font: bold 8px;
-	color: #FFFFFF;
+	color: #A5A4AA;
 }
 #debugButton:hover {
 	color: #58B2D7;
@@ -98,9 +107,9 @@ QListWidget::item:alternate {
 /* ########## TOOLTIP ########## */
 
 QToolTip {
-	background-color: #58B2D7;
+	background: #58B2D7;
 	font : 16px;
-	color: #A5A4AA;
+	color: white;
 	padding: 3px;
 	border: none;
 }
@@ -116,7 +125,7 @@ QDialogButtonBox {
 /* ########## SCROLL BAR ########## */
 
 QScrollBar:vertical {
-     background: #efefef;
+     background: #A5A4AA;
      width: 20px;
      margin: 38px 0 20px 0;
 }
@@ -145,11 +154,12 @@ QScrollBar::add-line:vertical {
 /* ########## QLIST VIEW ########## */
 
 QListView {
-		font: 16px;
+	font: 16px;
+	background: #A5A4AA;
 }
 
 QListView::item:alternate {
-	color: #58B2D7;
+	background: #58B2D7;
 	color: #A5A4AA;
 }
 
@@ -186,6 +196,10 @@ QListView#listVariant::item:!alternate:selected:active {
 
 
 /* ########## QLINE EDIT ########## */
+
+QLineEdit {
+	background: #A5A4AA;
+}
 
 QLineEdit#LE_TestKeyboard {
 	font: 16px;
@@ -312,6 +326,7 @@ QLineEdit#textBoxUserPassword, QLineEdit#textBoxRootPassword {
 
 QComboBox {
 	font: 16px;
+	background: #A5A4AA
 }
 
 QComboBox::item:selected {
@@ -338,15 +353,18 @@ QLineEdit {
 QTreeView {
 	font: 16px;
 	show-decoration-selected: 0;
+	background: #A5A4AA;
 }
 
 QTreeView::item {
 	padding: 2px;
+	background: #A5A4AA;
 }
 
 QTreeView::item:selected {
 	background: #58B2D7;
 	font: bold;
+	color: #A5A4AA;
 }
 
 QTreeView::branch:has-siblings:!adjoins-item {
