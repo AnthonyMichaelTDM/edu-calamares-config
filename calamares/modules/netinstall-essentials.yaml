@@ -169,3 +169,19 @@
     - openrgb
     - radeontool
     - solaar
+- name: "Misc. Usefull Software"
+  description: "software I have on almost all my linux installs"
+  critical: false
+  hidden: false
+  selected: false
+  expanded: false
+  packages:
+    - cpufetch
+    - ranger
+    - tty-clock
+    - wttr
+    - rustup
+    - code
+    - dust
+    - bottom
+
