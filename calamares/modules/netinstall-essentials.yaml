@@ -34,15 +34,16 @@
     - xf86-video-ati
 - name: "nVidia GPU Drivers"
   description: "For 900 Series & Up"
+  critical: false
   hidden: false
   selected: false
-  critical: false
-           - nvidia-dkms-tkg
-           - nvidia-utils-tkg
-           - nvidia-settings-tkg
-           - opencl-nvidia-tkg
-           - lib32-nvidia-utils-tkg
-           - lib32-opencl-nvidia-tkg
+  expanded: false
+    - nvidia-dkms-tkg
+    - nvidia-utils-tkg
+    - nvidia-settings-tkg
+    - opencl-nvidia-tkg
+    - lib32-nvidia-utils-tkg
+    - lib32-opencl-nvidia-tkg
 - name: "Optimus Manager"
   description: "Enable iGPU/nVidia GPU Switching"
   critical: false
