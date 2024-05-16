@@ -33,49 +33,16 @@
   packages:
     - xf86-video-ati
 - name: "nVidia GPU Drivers"
-  description: "Select Correct One for your GPU"
+  description: "For 900 Series & Up"
   hidden: false
   selected: false
   critical: false
-  subgroups:
-      - name: "nVidia 510 TKG"
-        description: "For 900 Series & Up"
-        selected: false
-        packages:
            - nvidia-dkms-tkg
            - nvidia-utils-tkg
            - nvidia-settings-tkg
            - opencl-nvidia-tkg
            - lib32-nvidia-utils-tkg
            - lib32-opencl-nvidia-tkg
-      - name: "nVidia Kepler"
-        description: "For Kepler based GPUs"
-        selected: false
-        packages:
-           - nvidia-470xx-dkms-tkg
-           - nvidia-470xx-utils-tkg
-           - nvidia-470xx-settings-tkg
-           - opencl-nvidia-470xx-tkg
-           - lib32-nvidia-470xx-utils-tkg
-           - lib32-opencl-nvidia-470xx-tkg
-      - name: "nVidia Fermi"
-        description: "For Fermi based GPUs"
-        selected: false
-        packages:
-           - nvidia-390xx-dkms
-           - nvidia-390xx-utils
-           - nvidia-390xx-settings
-           - opencl-nvidia-390xx
-           - lib32-opencl-nvidia-390xx
-      - name: "nVidia Legacy"
-        description: "For GPUs older than Fermi"
-        selected: false
-        packages:
-           - nvidia-340xx-dkms
-           - nvidia-340xx-utils
-           - nvidia-340xx-settings
-           - opencl-nvidia-390xx
-           - lib32-opencl-nvidia-340xx
 - name: "Optimus Manager"
   description: "Enable iGPU/nVidia GPU Switching"
   critical: false

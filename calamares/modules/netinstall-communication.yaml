@@ -15,8 +15,9 @@
     - neochat
     - pidgin
     - qtox
-    - skypeforlinux-stable-bin
+    - skypeforlinux-bin
     - signal-desktop
+    - signal-desktop-beta-bin
     - slack-desktop
     - teams
     - telegram-desktop

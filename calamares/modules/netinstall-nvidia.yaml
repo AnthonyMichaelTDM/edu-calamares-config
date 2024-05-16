@@ -50,83 +50,57 @@
     - nvidia-dkms
     - nvidia-settings
     - nvidia-utils
-- name: "Nvidia-dkms for linux-rt kernel"
-  description: "Installs nvidia-dkms for linux-rt kernel"
+- name: "Nvidia-dkms for linux-cachyos kernel"
+  description: "Installs nvidia-dkms for the cachyos kernel"
   critical: false
   hidden: false
   selected: false
   packages:
-    - linux-rt
-    - linux-rt-headers
+    - linux-cachyos
+    - linux-cachyos-headers
     - nvidia-dkms
     - nvidia-settings
     - nvidia-utils
-- name: "Nvidia-dkms for linux-rt-lts kernel"
-  description: "Installs nvidia-dkms for linux-rt-lts kernel"
+- name: "Nvidia 340 drivers"
+  description: "Nvidia 340 drivers"
   critical: false
   hidden: false
   selected: false
+  immutable: false
+  expanded: false
   packages:
-    - linux-rt-lts
-    - linux-rt-lts-headers
-    - nvidia-dkms
-    - nvidia-settings
-    - nvidia-utils
-- name: "Nvidia-dkms for linux-xanmod kernel"
-  description: "Installs the linux-xanmod kernel"
+    - nvidia-340xx-dkms
+    - nvidia-340xx-utils
+- name: "Nvidia 390 drivers"
+  description: "Nvidia 390 drivers"
   critical: false
   hidden: false
   selected: false
+  immutable: false
+  expanded: false
   packages:
-    - linux-xanmod
-    - linux-xanmod-headers
-    - nvidia-dkms
-    - nvidia-settings
-    - nvidia-utils
-- name: "Nvidia-dkms for linux-xanmod-lts kernel"
-  description: "Installs the linux-xanmod-lts kernel"
+    - nvidia-390xx-dkms
+    - nvidia-390xx-utils
+- name: "Nvidia 470 drivers"
+  description: "Nvidia 470 drivers"
   critical: false
   hidden: false
   selected: false
+  immutable: false
+  expanded: false
   packages:
-    - linux-xanmod-lts
-    - linux-xanmod-lts-headers
-    - nvidia-dkms
-    - nvidia-settings
-    - nvidia-utils
-- name: "Nvidia-dkms for linux-xanmod-rt kernel"
-  description: "Installs the linux-xanmod-rt kernel"
+    - nvidia-470xx-dkms
+    - nvidia-470xx-utils
+- name: "Nvidia 525 drivers"
+  description: "Nvidia 525 drivers"
   critical: false
   hidden: false
   selected: false
+  immutable: false
+  expanded: false
   packages:
-    - linux-xanmod-rt
-    - linux-xanmod-rt-headers
-    - nvidia-dkms
-    - nvidia-settings
-    - nvidia-utils
-- name: "Nvidia-dkms for linux-xanmod-tt kernel"
-  description: "Installs the linux-xanmod-tt kernel"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - linux-xanmod-tt
-    - linux-xanmod-tt-headers
-    - nvidia-dkms
-    - nvidia-settings
-    - nvidia-utils
-- name: "Nvidia-dkms for linux-xanmod-anbox kernel"
-  description: "Installs the linux-xanmod-anbox kernel"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - linux-xanmod-anbox
-    - linux-xanmod-anbox-headers
-    - nvidia-dkms
-    - nvidia-settings
-    - nvidia-utils
+    - nvidia-525xx-dkms
+    - nvidia-525xx-utils
 - name: "Nvidia Related"
   description: "Nvidia related applications"
   critical: false
@@ -135,17 +109,25 @@
   immutable: false
   expanded: false
   packages:
+    - bbswitch
+    - bbswitch-dkms
     - bumblebee
     - bumblebee-status
     - bumblebee-status-git
     - cuda
+    - disper
     - envycontrol
     - gwe
     - nvflash
     - nvidia
     - nvidia-lts
+    - nvidia-open
+    - nvidia-open-dkms
     - nvidia-prime
     - nvidia-xrun
     - nvtop
     - optimus-manager
     - optimus-manager-qt
+    - primus
+    - switcheroo-control
+    - supergfxctl

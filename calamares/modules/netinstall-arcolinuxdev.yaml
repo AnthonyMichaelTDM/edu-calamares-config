@@ -5,17 +5,18 @@
   selected: false
   expanded: true
   packages:
-    - arcolinux-local-xfce4-git
-    - arcolinux-xfce-git
-    - discord
-    - firefox
+    - arcolinux-powermenu-git
+    - chromium
     - flameshot-git
+    - gimp
+    - inkscape
+    - vivaldi
+    - vivaldi-ffmpeg-codecs
+    - vivaldi-widevine
     - gitahead-bin
     - meld
     - scrot
     - simplescreenrecorder
-    - sublime-text-4
-    - telegram-desktop
     - the_platinum_searcher-bin
     - thunar
     - thunar-archive-plugin

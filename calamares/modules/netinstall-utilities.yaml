@@ -71,6 +71,7 @@
     - flatpak
     - gnome-software
     - octopi
+    - octopi-notifier-qt5
     - pace
     - pace-git
     - pacui
@@ -82,9 +83,12 @@
     - pikaur-git
     - rate-mirrors
     - rate-mirrors-bin
+    - skippy-xd-git
     - snapd
     - synapse
     - topgrade
+    - topgrade-bin
+    - topgrade-git
     - trizen
     - ulauncher
     - xlunch-git
@@ -120,7 +124,6 @@
   expanded: true
   packages:
     - alsi
-    - archey3
     - bottom
     - btop
     - cpufetch-git
@@ -128,6 +131,9 @@
     - cpu-x
     - dmidecode
     - duf
+    - edid-decode-git
+    - fastfetch
+    - fastfetch-git
     - glances
     - gnome-disk-utility
     - gotop-bin
@@ -158,8 +164,6 @@
   expanded: true
   packages:
     - mkinitcpio-firmware
-    - modprobed-db
-    - modprobed-db-git
 - name: "Utilities"
   description: "Utility software"
   critical: false
@@ -190,7 +194,7 @@
     - grsync
     - grub-customizer
     - gufw
-    - hardinfo-gtk3
+    - hardinfo2
     - kbackup
     - konsave
     - linux-wifi-hotspot

@@ -5,13 +5,13 @@
   selected: false
   expanded: true
   packages:
+    - amberol
     - ardour
     - audacious
     - audacious-plugins
     - audacity
     - byte
     - cava
-    - clementine
     - curseradio-git
     - deadbeef
     - deezer
@@ -34,6 +34,7 @@
     - spotify
     - spotifywm-git
     - spotify-adblock-git
+    - strawberry
     - tauon-music-box
 - name: "Video Software"
   description: "Primarily Video software"
@@ -44,7 +45,6 @@
   packages:
     - celluloid
     - clapper
-    - filebot
     - freetube-bin
     - guvcview
     - handbrake
@@ -69,6 +69,7 @@
     - plex-media-server
     - qtwebflix-git
     - simplescreenrecorder
+    - simplescreenrecorder-git
     - smplayer
     - vlc
     - youtube-dl

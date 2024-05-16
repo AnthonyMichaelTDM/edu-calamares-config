@@ -4,72 +4,27 @@
   hidden: false
   selected: false
   packages:
+    - archlinux-logout-git
     - arcolinux-awesome-git
     - arcolinux-config-all-desktops-git
     - arcolinux-dconf-all-desktops-git
-    - arcolinux-gtk3-sardi-arc-git
     - arcolinux-local-xfce4-git
-    - archlinux-logout-git
+    - arcolinux-powermenu-git
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
-    - archlinux-tweak-tool-git
     - arcolinux-volumeicon-git
-    - arcolinux-wallpapers-git
-    - arcolinux-xfce-git
-    - autorandr
+    - arconet-xfce
     - awesome
     - dmenu
-    - feh
     - lxappearance
     - picom
     - polkit-gnome
-    - rofi
+    - rofi-lbonn-wayland
     - thunar
     - thunar-archive-plugin
     - thunar-volman
     - vicious
-    - volumeicon
-    - xfce4-notifyd
-    - xfce4-power-manager
-    - xfce4-screenshooter
-    - xfce4-settings
-    - xfce4-taskmanager
-    - xfce4-terminal
-- name: "Desktop: Berry"
-  description: "Installs berry desktop"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - alacritty
-    - arcolinux-berry-git
-    - arcolinux-config-all-desktops-git
-    - arcolinux-dconf-all-desktops-git
-    - arcolinux-gtk3-sardi-arc-git
-    - arcolinux-local-xfce4-git
-    - archlinux-logout-git
-    - arcolinux-polybar-git
-    - arcolinux-rofi-git
-    - arcolinux-rofi-themes-git
-    - arcolinux-root-git
-    - archlinux-tweak-tool-git
-    - arcolinux-volumeicon-git
-    - arcolinux-wallpapers-git
-    - arcolinux-xfce-git
-    - berry-dev-git
-    - dmenu
-    - feh
-    - lxappearance
-    - picom
-    - polybar
-    - polkit-gnome
-    - rofi
-    - sxhkd
-    - thunar
-    - thunar-archive-plugin
-    - thunar-volman
-    - ttf-hack
     - volumeicon
     - xfce4-notifyd
     - xfce4-power-manager
@@ -83,29 +38,26 @@
   hidden: false
   selected: false
   packages:
+    - archlinux-logout-git
     - arcolinux-bspwm-git
     - arcolinux-config-all-desktops-git
     - arcolinux-dconf-all-desktops-git
-    - arcolinux-gtk3-sardi-arc-git
     - arcolinux-local-xfce4-git
-    - archlinux-logout-git
     - arcolinux-polybar-git
+    - arcolinux-powermenu-git
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
-    - archlinux-tweak-tool-git
     - arcolinux-volumeicon-git
-    - arcolinux-wallpapers-git
-    - arcolinux-xfce-git
+    - arconet-xfce
     - awesome-terminal-fonts
     - bspwm
     - dmenu
-    - feh
     - lxappearance
     - picom
-    - polybar
     - polkit-gnome
-    - rofi
+    - polybar
+    - rofi-lbonn-wayland
     - sutils-git
     - sxhkd
     - thunar
@@ -125,33 +77,26 @@
   hidden: false
   selected: false
   packages:
-    - arcolinux-budgie-dconf-git
     - arcolinux-budgie-git
     - arcolinux-config-all-desktops-git
-    - arcolinux-gtk3-sardi-arc-git
+    - arcolinux-dconf-all-desktops-git
     - arcolinux-guake-autostart-git
     - arcolinux-root-git
-    - archlinux-tweak-tool-git
-    - arcolinux-wallpapers-git
     - budgie-desktop
     - budgie-extras
     - gnome
     - guake
-    - ttf-hack
 - name: "Desktop: Cinnamon"
   description: "Installs cinnamon desktop"
   critical: false
   hidden: false
   selected: false
   packages:
-    - arcolinux-cinnamon-dconf-git
     - arcolinux-cinnamon-git
     - arcolinux-config-all-desktops-git
-    - arcolinux-gtk3-surfn-arc-git
+    - arcolinux-dconf-all-desktops-git
     - arcolinux-root-git
-    - archlinux-tweak-tool-git
-    - arcolinux-wallpapers-git
-    - arcolinux-xfce-git
+    - arconet-xfce
     - cinnamon
     - cinnamon-translations
     - gnome-screenshot
@@ -160,7 +105,7 @@
     - iso-flag-png
     - mintlocale
     - nemo-fileroller
-    - xfce4-terminal
+    - xed
 - name: "Desktop: Chadwm"
   description: "Installs chadwm desktop"
   critical: false
@@ -168,31 +113,30 @@
   selected: false
   packages:
     - alacritty
+    - archlinux-logout-git
     - arcolinux-chadwm-git
+    - arcolinux-chadwm-pacman-hook-git
     - arcolinux-config-all-desktops-git
     - arcolinux-dconf-all-desktops-git
-    - arcolinux-gtk3-sardi-arc-git
     - arcolinux-local-xfce4-git
-    - archlinux-logout-git
+    - arcolinux-powermenu-git
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
-    - archlinux-tweak-tool-git
     - arcolinux-volumeicon-git
-    - arcolinux-wallpapers-git
-    - arcolinux-xfce-git
+    - arconet-xfce
+    - dash
     - dmenu
-    - feh
+    - eww
+    - lolcat
     - lxappearance
     - picom
     - polkit-gnome
-    - rofi
+    - rofi-lbonn-wayland
     - sxhkd
     - thunar
     - thunar-archive-plugin
     - thunar-volman
-    - ttf-hack
-    - ttf-jetbrains-mono-nerd
     - ttf-meslo-nerd-font-powerlevel10k
     - volumeicon
     - xfce4-notifyd
@@ -201,41 +145,24 @@
     - xfce4-settings
     - xfce4-taskmanager
     - xfce4-terminal
-- name: "Desktop: Cutefish"
-  description: "Installs cutefish desktop"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - arcolinux-cutefish-dconf-git
-    - arcolinux-cutefish-git
-    - arcolinux-config-all-desktops-git
-    - arcolinux-root-git
-    - archlinux-tweak-tool-git
-    - arcolinux-wallpapers-git
-    - cutefish
 - name: "Desktop: Cwm"
   description: "Installs cwm desktop"
   critical: false
   hidden: false
   selected: false
   packages:
+    - archlinux-logout-git
     - arcolinux-config-all-desktops-git
     - arcolinux-cwm-git
     - arcolinux-dconf-all-desktops-git
-    - arcolinux-gtk3-sardi-arc-git
     - arcolinux-local-xfce4-git
-    - archlinux-logout-git
     - arcolinux-polybar-git
+    - arcolinux-powermenu-git
     - arcolinux-root-git
-    - archlinux-tweak-tool-git
     - arcolinux-volumeicon-git
-    - arcolinux-wallpapers-git
-    - arcolinux-xfce-git
-    - autorandr
+    - arconet-xfce
     - cwm
     - dmenu
-    - feh
     - lxappearance
     - picom
     - polybar
@@ -257,40 +184,95 @@
   selected: false
   packages:
     - arcolinux-config-all-desktops-git
-    - arcolinux-deepin-dconf-git
+    - arcolinux-dconf-all-desktops-git
     - arcolinux-deepin-git
-    - arcolinux-gtk3-sardi-arc-git
     - arcolinux-root-git
-    - archlinux-tweak-tool-git
-    - arcolinux-wallpapers-git
     - deepin
-    - deepin-extra
+    - deepin-album
+    - deepin-boot-maker
+    - deepin-calculator
+    - deepin-camera
+    - deepin-clipboard
+    - deepin-clone
+    - deepin-community-wallpapers
+    - deepin-compressor
+    - deepin-device-formatter
+    - deepin-draw
+    - deepin-editor
+    - deepin-font-manager
+    - deepin-grand-search
+    - deepin-kwin
+    - deepin-movie
+    - deepin-music
+    - deepin-picker
+    - deepin-printer
+    - deepin-screen-recorder
+    - deepin-screensaver-pp
+    - deepin-terminal
+    - deepin-voice-note
+    - onboard
+- name: "Desktop: Dk"
+  description: "Installs dk desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - archlinux-logout-git
+    - arcolinux-config-all-desktops-git
+    - arcolinux-dconf-all-desktops-git
+    - arcolinux-dk-git
+    - arcolinux-local-xfce4-git
+    - arcolinux-polybar-git
+    - arcolinux-powermenu-git
+    - arcolinux-rofi-git
+    - arcolinux-rofi-themes-git
+    - arcolinux-root-git
+    - arcolinux-volumeicon-git
+    - arconet-xfce
+    - dk
+    - dmenu
+    - lxappearance
+    - nerd-fonts-source-code-pro
+    - picom
+    - polkit-gnome
+    - polybar
+    - rofi-lbonn-wayland
+    - sxhkd
+    - thunar
+    - thunar-archive-plugin
+    - thunar-volman
+    - volumeicon
+    - xfce4-notifyd
+    - xfce4-power-manager
+    - xfce4-screenshooter
+    - xfce4-settings
+    - xfce4-taskmanager
+    - xfce4-terminal
 - name: "Desktop: Dusk"
   description: "Installs dusk desktop"
   critical: false
   hidden: false
   selected: false
   packages:
+    - archlinux-logout-git
     - arcolinux-config-all-desktops-git
     - arcolinux-dconf-all-desktops-git
     - arcolinux-dusk-git
+    - arcolinux-dusk-pacman-hook-git
     - arcolinux-dwm-st-git
-    - arcolinux-gtk3-sardi-arc-git
     - arcolinux-local-xfce4-git
-    - archlinux-logout-git
+    - arcolinux-powermenu-git
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
-    - archlinux-tweak-tool-git
     - arcolinux-volumeicon-git
-    - arcolinux-wallpapers-git
-    - arcolinux-xfce-git
+    - arconet-xfce
     - dmenu
-    - feh
+    - lolcat
     - lxappearance
     - picom
     - polkit-gnome
-    - rofi
+    - rofi-lbonn-wayland
     - sxhkd
     - thunar
     - thunar-archive-plugin
@@ -308,27 +290,25 @@
   hidden: false
   selected: false
   packages:
+    - archlinux-logout-git
     - arcolinux-config-all-desktops-git
     - arcolinux-dconf-all-desktops-git
     - arcolinux-dwm-git
+    - arcolinux-dwm-pacman-hook-git
     - arcolinux-dwm-slstatus-git
-    - arcolinux-gtk3-sardi-arc-git
     - arcolinux-local-xfce4-git
-    - archlinux-logout-git
+    - arcolinux-powermenu-git
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
-    - archlinux-tweak-tool-git
     - arcolinux-volumeicon-git
-    - arcolinux-wallpapers-git
-    - arcolinux-xfce-git
+    - arconet-xfce
     - dmenu
-    - feh
     - gsimplecal
     - lxappearance
     - picom
     - polkit-gnome
-    - rofi
+    - rofi-lbonn-wayland
     - sxhkd
     - thunar
     - thunar-archive-plugin
@@ -340,39 +320,29 @@
     - xfce4-settings
     - xfce4-taskmanager
     - xfce4-terminal
-- name: "Desktop: Enlightenment"
-  description: "Installs enlightenment desktop"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - enlightenment
 - name: "Desktop: Fvwm3"
   description: "Installs fvwm3 desktop"
   critical: false
   hidden: false
   selected: false
   packages:
+    - archlinux-logout-git
     - arcolinux-config-all-desktops-git
     - arcolinux-dconf-all-desktops-git
     - arcolinux-fvwm3-git
-    - arcolinux-gtk3-surfn-arc-git
     - arcolinux-local-xfce4-git
-    - archlinux-logout-git
+    - arcolinux-powermenu-git
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
-    - archlinux-tweak-tool-git
     - arcolinux-volumeicon-git
-    - arcolinux-wallpapers-git
-    - arcolinux-xfce-git
+    - arconet-xfce
     - dmenu
-    - feh
     - fvwm3-git
     - gsimplecal
     - picom
     - polkit-gnome
-    - rofi
+    - rofi-lbonn-wayland
     - sxhkd
     - thunar
     - thunar-archive-plugin
@@ -391,50 +361,45 @@
   selected: false
   packages:
     - arcolinux-config-all-desktops-git
-    - arcolinux-gnome-dconf-git
+    - arcolinux-dconf-all-desktops-git
     - arcolinux-gnome-git
-    - arcolinux-gtk3-sardi-arc-git
-    - arcolinux-guake-autostart-git
     - arcolinux-root-git
-    - archlinux-tweak-tool-git
-    - arcolinux-wallpapers-git
+    - extension-manager
     - gnome
+    - gnome-tweaks
+- name: "Desktop: Gnome extra - meta package"
+  description: "Installs gnome-extra meta package"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
     - gnome-extra
-    - gnome-shell-extension-appindicator-git
-    - gnome-shell-extension-dash-to-dock
-    - gnome-shell-extension-pop-shell-git
-    - gnome-system-tools
-    - guake
-    - ttf-hack
 - name: "Desktop: Herbstluftwm"
   description: "Installs herbstluftwm desktop"
   critical: false
   hidden: false
   selected: false
   packages:
+    - archlinux-logout-git
     - arcolinux-config-all-desktops-git
     - arcolinux-dconf-all-desktops-git
-    - arcolinux-gtk3-sardi-arc-git
     - arcolinux-herbstluftwm-git
     - arcolinux-local-xfce4-git
-    - archlinux-logout-git
     - arcolinux-polybar-git
+    - arcolinux-powermenu-git
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
-    - archlinux-tweak-tool-git
     - arcolinux-volumeicon-git
-    - arcolinux-wallpapers-git
-    - arcolinux-xfce-git
+    - arconet-xfce
     - awesome-terminal-fonts
     - dmenu
-    - feh
     - herbstluftwm
     - lxappearance
     - picom
     - polkit-gnome
     - polybar
-    - rofi
+    - rofi-lbonn-wayland
     - sxhkd
     - thunar
     - thunar-archive-plugin
@@ -447,80 +412,36 @@
     - xfce4-taskmanager
     - xfce4-terminal
     - xtitle-git
-- name: "Desktop: Hypr"
-  description: "Installs hypr desktop"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - alacritty
-    - arcolinux-config-all-desktops-git
-    - arcolinux-dconf-all-desktops-git
-    - arcolinux-gtk3-sardi-arc-git
-    - arcolinux-hypr-git
-    - arcolinux-local-xfce4-git
-    - archlinux-logout-git
-    - arcolinux-polybar-git
-    - arcolinux-rofi-git
-    - arcolinux-rofi-themes-git
-    - arcolinux-root-git
-    - archlinux-tweak-tool-git
-    - arcolinux-volumeicon-git
-    - arcolinux-wallpapers-git
-    - arcolinux-xfce-git
-    - dmenu
-    - feh
-    - hypr-dev-git
-    - lxappearance
-    - picom
-    - polkit-gnome
-    - polybar
-    - rofi
-    - sxhkd
-    - thunar
-    - thunar-archive-plugin
-    - thunar-volman
-    - ttf-hack
-    - volumeicon
-    - xfce4-notifyd
-    - xfce4-power-manager
-    - xfce4-screenshooter
-    - xfce4-settings
-    - xfce4-taskmanager
-    - xfce4-terminal
 - name: "Desktop: i3"
   description: "Installs i3 desktop"
   critical: false
   hidden: false
   selected: false
   packages:
+    - archlinux-logout-git
     - arcolinux-config-all-desktops-git
     - arcolinux-dconf-all-desktops-git
-    - arcolinux-gtk3-sardi-arc-git
     - arcolinux-i3wm-git
     - arcolinux-local-xfce4-git
-    - archlinux-logout-git
     - arcolinux-nitrogen-git
     - arcolinux-polybar-git
+    - arcolinux-powermenu-git
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
-    - archlinux-tweak-tool-git
     - arcolinux-volumeicon-git
-    - arcolinux-wallpapers-git
-    - arcolinux-xfce-git
+    - arconet-xfce
     - autotiling
     - dmenu
-    - feh
-    - i3blocks
     - i3-wm
+    - i3blocks
     - i3status
     - lxappearance
     - nitrogen
     - picom
     - polkit-gnome
     - polybar
-    - rofi
+    - rofi-lbonn-wayland
     - thunar
     - thunar-archive-plugin
     - thunar-volman
@@ -537,27 +458,23 @@
   hidden: false
   selected: false
   packages:
+    - archlinux-logout-git
     - arcolinux-config-all-desktops-git
     - arcolinux-dconf-all-desktops-git
-    - arcolinux-gtk3-surfn-arc-git
     - arcolinux-icewm-git
     - arcolinux-local-xfce4-git
-    - archlinux-logout-git
+    - arcolinux-powermenu-git
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
-    - archlinux-tweak-tool-git
     - arcolinux-volumeicon-git
-    - arcolinux-wallpapers-git
-    - arcolinux-xfce-git
-    - autorandr
+    - arconet-xfce
     - dmenu
-    - feh
     - icewm
     - lxappearance
     - picom
     - polkit-gnome
-    - rofi
+    - rofi-lbonn-wayland
     - thunar
     - thunar-archive-plugin
     - thunar-volman
@@ -575,27 +492,23 @@
   hidden: false
   selected: false
   packages:
+    - archlinux-logout-git
     - arcolinux-config-all-desktops-git
     - arcolinux-dconf-all-desktops-git
-    - arcolinux-gtk3-surfn-arc-git
     - arcolinux-jwm-git
     - arcolinux-local-xfce4-git
-    - archlinux-logout-git
+    - arcolinux-powermenu-git
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
-    - archlinux-tweak-tool-git
     - arcolinux-volumeicon-git
-    - arcolinux-wallpapers-git
-    - arcolinux-xfce-git
-    - autorandr
+    - arconet-xfce
     - dmenu
-    - feh
     - jwm
     - lxappearance
     - picom
     - polkit-gnome
-    - rofi
+    - rofi-lbonn-wayland
     - sxhkd
     - thunar
     - thunar-archive-plugin
@@ -615,33 +528,30 @@
   selected: false
   packages:
     - a-candy-beauty-icon-theme-git
-    - arcolinux-leftwm-git
+    - archlinux-logout-git    
     - arcolinux-config-all-desktops-git
     - arcolinux-dconf-all-desktops-git
     - arcolinux-gtk3-arcolinux-candy-beauty-git
+    - arcolinux-leftwm-git
     - arcolinux-local-xfce4-git
-    - archlinux-logout-git    
     - arcolinux-polybar-git
+    - arcolinux-powermenu-git
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
-    - archlinux-tweak-tool-git
     - arcolinux-volumeicon-git
-    - arcolinux-wallpapers-git
-    - arcolinux-xfce-git
-    - autorandr
+    - arconet-xfce
     - dmenu
-    - feh
-    - leftwm-dev-git
+    - leftwm-git
     - leftwm-theme-git
+    - lolcat
     - lxappearance
     - nerd-fonts-source-code-pro
     - nitrogen
     - picom
-    - polybar
     - polkit-gnome
-    - rofi
-    - rofi-theme-fonts
+    - polybar
+    - rofi-lbonn-wayland
     - sxhkd
     - thunar
     - thunar-archive-plugin
@@ -664,17 +574,16 @@
   hidden: false
   selected: false
   packages:
+    - archlinux-logout-git
     - arcolinux-config-all-desktops-git
     - arcolinux-dconf-all-desktops-git
-    - arcolinux-gtk3-sardi-arc-git
     - arcolinux-local-xfce4-git
-    - archlinux-logout-git
     - arcolinux-lxqt-git
+    - arcolinux-powermenu-git
     - arcolinux-root-git
-    - archlinux-tweak-tool-git
-    - arcolinux-wallpapers-git
-    - arcolinux-xfce-git
+    - arconet-xfce
     - dmenu
+    - ksuperkey
     - lxappearance
     - lxqt
     - lxqt-arc-dark-theme-git
@@ -699,18 +608,53 @@
   selected: false
   packages:
     - arcolinux-config-all-desktops-git
-    - arcolinux-gtk3-surfn-arc-git
-    - arcolinux-mate-dconf-git
+    - arcolinux-dconf-all-desktops-git
     - arcolinux-mate-git
     - arcolinux-root-git
-    - archlinux-tweak-tool-git
-    - arcolinux-wallpapers-git
-    - arcolinux-xfce-git
+    - arconet-xfce
     - dmenu
     - gnome-screenshot
     - mate
     - mate-extra
     - mate-tweak
+- name: "Desktop: Nimdow"
+  description: "Installs nimdow desktop"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - alacritty
+    - archlinux-logout-git
+    - arcolinux-btop-git
+    - arcolinux-config-all-desktops-git
+    - arcolinux-dconf-all-desktops-git
+    - arcolinux-nimdow-git
+    - arcolinux-powermenu-git
+    - arcolinux-rofi-git
+    - arcolinux-rofi-themes-git
+    - arcolinux-root-git
+    - arcolinux-volumeicon-git
+    - arconet-xfce
+    - btop
+    - dmenu
+    - lxappearance
+    - nim
+    - nimdow-bin
+    - nitrogen
+    - picom
+    - polkit-gnome
+    - rofi-lbonn-wayland
+    - sxhkd
+    - thunar
+    - thunar-archive-plugin
+    - thunar-media-tags-plugin
+    - thunar-volman
+    - volumeicon
+    - xfce4-notifyd
+    - xfce4-power-manager
+    - xfce4-screenshooter
+    - xfce4-settings
+    - xfce4-taskmanager
     - xfce4-terminal
 - name: "Desktop: Openbox"
   description: "Installs openbox desktop"
@@ -718,32 +662,27 @@
   hidden: false
   selected: false
   packages:
+    - archlinux-logout-git
     - arcolinux-common-git
     - arcolinux-config-all-desktops-git
     - arcolinux-dconf-all-desktops-git
     - arcolinux-docs-git
     - arcolinux-geany-git
-    - arcolinux-gtk3-sardi-arc-git
     - arcolinux-local-xfce4-git
-    - archlinux-logout-git
     - arcolinux-nitrogen-git
     - arcolinux-obmenu-generator-git
     - arcolinux-openbox-git
     - arcolinux-openbox-themes-git
     - arcolinux-pipemenus-git
-    - arcolinux-plank-git
-    - arcolinux-plank-themes-git
+    - arcolinux-powermenu-git
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
     - arcolinux-tint2-git
     - arcolinux-tint2-themes-git
-    - archlinux-tweak-tool-git
     - arcolinux-volumeicon-git
-    - arcolinux-wallpapers-git
-    - arcolinux-xfce-git
+    - arconet-xfce
     - dmenu
-    - feh
     - geany
     - gksu
     - gnome-screenshot
@@ -760,9 +699,8 @@
     - openbox-themes-pambudi-git
     - perl-linux-desktopfiles
     - picom
-    - plank
     - polkit-gnome
-    - rofi
+    - rofi-lbonn-wayland
     - thunar
     - thunar-archive-plugin
     - thunar-volman
@@ -776,42 +714,20 @@
     - xfce4-taskmanager
     - xfce4-terminal
     - yad
-- name: "Desktop: Pantheon"
-  description: "Installs pantheon desktop"
+- name: "Desktop: Plasma minimal"
+  description: "Installs plasma desktop with essential packages"
   critical: false
   hidden: false
   selected: false
   packages:
-    - arcolinux-root-git
-    - archlinux-tweak-tool-git
-    - pantheon
-- name: "Desktop: Plasma"
-  description: "Installs plasma desktop"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - plasma
-    - kde-accessibility-meta
-    - kde-education-meta
-    - kde-games-meta
-    - kde-graphics-meta
-    - kde-multimedia-meta
-    - kde-network-meta
-    - kde-pim-meta
-    - kde-sdk-meta
-    - kde-system-meta
-    - kde-utilities-meta
-    - kdevelop-meta   
     - arcolinux-arc-kde
-    - arcolinux-config-plasma-git
-    - arcolinux-gtk3-surfn-arc-breeze-git
-    - arcolinux-plasma-dconf-git
-    - arcolinux-plasma-git
-    - arcolinux-plasma-kservices-git
+    - arcolinux-plasma-keybindings-git
+    - arcolinux-plasma-servicemenus-git
+    - arcolinux-plasma-theme-candy-beauty-arc-dark-git
+    - arcolinux-plasma-theme-candy-beauty-nordic-git
+    - arcolinux-plasma-theme-surfn-arc-dark-git
+    - arcolinux-plasma-theme-surfn-nordic-git
     - arcolinux-root-git
-    - archlinux-tweak-tool-git
-    - arcolinux-wallpapers-git
     - ark
     - breeze
     - cryfs
@@ -830,11 +746,63 @@
     - ocs-url
     - okular
     - packagekit-qt5
-    - partitionmanager
-    - sddm-kcm
+    - plasma
     - spectacle
-    - surfn-arc-breeze-icons-git
-    - systemd-kcm
+    - surfn-plasma-dark-icons-git
+    - surfn-plasma-light-icons-git
+    - yakuake
+- name: "Desktop: Plasma full"
+  description: "Installs plasma desktop with all (meta) packages"
+  critical: false
+  hidden: false
+  selected: false
+  packages:
+    - arcolinux-arc-kde
+    - arcolinux-plasma-keybindings-git
+    - arcolinux-plasma-servicemenus-git
+    - arcolinux-plasma-theme-candy-beauty-arc-dark-git
+    - arcolinux-plasma-theme-candy-beauty-nordic-git
+    - arcolinux-plasma-theme-surfn-arc-dark-git
+    - arcolinux-plasma-theme-surfn-nordic-git
+    - arcolinux-root-git
+    - ark
+    - breeze
+    - cryfs
+    - discover
+    - dolphin
+    - dolphin-plugins
+    - encfs
+    - ffmpegthumbs
+    - gocryptfs
+    - gwenview
+    - kate
+    - kde-accessibility-meta
+    - kde-applications-meta
+    - kde-development-environment-meta
+    - kde-education-meta
+    - kde-games-meta
+    - kde-graphics-meta
+    - kde-gtk-config
+    - kde-multimedia-meta
+    - kde-network-meta
+    - kde-office-meta
+    - kde-pim-meta
+    - kde-sdk-meta
+    - kde-system-meta
+    - kde-utilities-meta
+    - kdeconnect
+    - kdenetwork-filesharing
+    - kdevelop-meta
+    - kdevelop-meta   
+    - ktorrent
+    - ocs-url
+    - okular
+    - packagekit-qt5
+    - partitionmanager
+    - plasma-meta
+    - spectacle
+    - surfn-plasma-dark-icons-git
+    - surfn-plasma-light-icons-git
     - yakuake
 - name: "Desktop: Qtile"
   description: "Installs qtile desktop"
@@ -842,113 +810,36 @@
   hidden: false
   selected: false
   packages:
+    - archlinux-logout-git
     - arcolinux-config-all-desktops-git
     - arcolinux-dconf-all-desktops-git
-    - arcolinux-gtk3-sardi-arc-git
     - arcolinux-local-xfce4-git
-    - archlinux-logout-git
+    - arcolinux-powermenu-git
     - arcolinux-qtile-git
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
-    - archlinux-tweak-tool-git
     - arcolinux-volumeicon-git
-    - arcolinux-wallpapers-git
-    - arcolinux-xfce-git
+    - arconet-xfce
     - awesome-terminal-fonts
     - dmenu
-    - feh
     - lxappearance
     - picom
     - polkit-gnome
     - python-psutil
     - python-setuptools
     - qtile
-    - rofi
+    - rofi-lbonn-wayland
     - thunar
     - thunar-archive-plugin
     - thunar-volman
     - volumeicon
+    - xcb-util-cursor
     - xfce4-notifyd
     - xfce4-power-manager
     - xfce4-screenshooter
     - xfce4-settings
     - xfce4-taskmanager
-    - xfce4-terminal
-- name: "Desktop: Spectrwm"
-  description: "Installs spectrwm desktop"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - arcolinux-config-all-desktops-git
-    - arcolinux-dconf-all-desktops-git
-    - arcolinux-gtk3-sardi-arc-git
-    - arcolinux-local-xfce4-git
-    - archlinux-logout-git
-    - arcolinux-polybar-git
-    - arcolinux-rofi-git
-    - arcolinux-rofi-themes-git
-    - arcolinux-root-git
-    - arcolinux-spectrwm-git
-    - archlinux-tweak-tool-git
-    - arcolinux-volumeicon-git
-    - arcolinux-wallpapers-git
-    - arcolinux-xfce-git
-    - awesome-terminal-fonts
-    - dmenu
-    - feh
-    - lxappearance
-    - picom
-    - polkit-gnome
-    - polybar
-    - python-psutil
-    - spectrwm
-    - sutils-git
-    - sxhkd
-    - thunar
-    - thunar-archive-plugin
-    - thunar-volman
-    - volumeicon
-    - xdo
-    - xfce4-notifyd
-    - xfce4-power-manager
-    - xfce4-screenshooter
-    - xfce4-settings
-    - xfce4-taskmanager
-    - xfce4-terminal
-    - xtitle-git
-- name: "Desktop: Ukui"
-  description: "Installs ukui desktop"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - arcolinux-config-all-desktops-git
-    - arcolinux-gtk3-sardi-arc-git
-    - arcolinux-local-xfce4-git
-    - arcolinux-qt5-git
-    - arcolinux-root-git
-    - archlinux-tweak-tool-git
-    - arcolinux-ukui-dconf-git
-    - arcolinux-ukui-git
-    - arcolinux-xfce-git
-    - arcolinux-wallpapers-git
-    - dmenu
-    - gnome-screenshot
-    - gvfs
-    - lxappearance
-    - mate-control-center
-    - mate-desktop
-    - mate-menus
-    - mate-system-monitor
-    - mate-terminal
-    - qt5-quickcontrols
-    - redshift
-    - thunar
-    - thunar-archive-plugin
-    - thunar-volman
-    - ukui
     - xfce4-terminal
 - name: "Desktop: Wmderland"
   description: "Installs wmderland desktop"
@@ -956,26 +847,24 @@
   hidden: false
   selected: false
   packages:
-    - arcolinux-config-all-desktops-git
-    - arcolinux-gtk3-sardi-arc-git
-    - arcolinux-wmderland-git
-    - arcolinux-local-xfce4-git
     - archlinux-logout-git
+    - arcolinux-config-all-desktops-git
+    - arcolinux-dconf-all-desktops-git
+    - arcolinux-local-xfce4-git
     - arcolinux-polybar-git
+    - arcolinux-powermenu-git
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
-    - archlinux-tweak-tool-git
     - arcolinux-volumeicon-git
-    - arcolinux-wallpapers-git
-    - arcolinux-xfce-git
+    - arcolinux-wmderland-git
+    - arconet-xfce
     - dmenu
-    - feh
     - lxappearance
     - picom
     - polkit-gnome
     - polybar
-    - rofi
+    - rofi-lbonn-wayland
     - sxhkd
     - thunar
     - thunar-archive-plugin
@@ -988,93 +877,50 @@
     - xfce4-settings
     - xfce4-taskmanager
     - xfce4-terminal
-- name: "Desktop: Worm"
-  description: "Installs worm desktop"
-  critical: false
-  hidden: false
-  selected: false
-  packages:
-    - alacritty
-    - arcolinux-config-all-desktops-git
-    - arcolinux-dconf-all-desktops-git
-    - arcolinux-gtk3-sardi-arc-git
-    - arcolinux-local-xfce4-git
-    - archlinux-logout-git
-    - arcolinux-polybar-git
-    - arcolinux-rofi-git
-    - arcolinux-rofi-themes-git
-    - arcolinux-root-git
-    - archlinux-tweak-tool-git
-    - arcolinux-volumeicon-git
-    - arcolinux-wallpapers-git
-    - arcolinux-worm-git
-    - arcolinux-xfce-git
-    - dmenu
-    - feh
-    - lxappearance
-    - picom
-    - polkit-gnome
-    - polybar
-    - rofi
-    - sxhkd
-    - thunar
-    - thunar-archive-plugin
-    - thunar-volman
-    - ttf-hack
-    - volumeicon
-    - worm-dev-git
-    - xfce4-notifyd
-    - xfce4-power-manager
-    - xfce4-screenshooter
-    - xfce4-settings
-    - xfce4-taskmanager
-    - xfce4-terminal
 - name: "Desktop: Xfce4"
   description: "Installs xfce4 desktop"
   critical: false
   hidden: false
   selected: false
   packages:
-    - xfce4
-    - xfce4-goodies
-    - dmenu
+    - archlinux-logout-git
     - arcolinux-config-all-desktops-git
     - arcolinux-dconf-all-desktops-git
     - arcolinux-local-xfce4-git
-    - archlinux-logout-git
     - arcolinux-root-git
-    - archlinux-tweak-tool-git
-    - arcolinux-xfce-git
+    - arconet-xfce
+    - dmenu
+    - xfce4
+    - xfce4-goodies
 - name: "Desktop: Xmonad"
   description: "Installs xmonad desktop"
   critical: false
   hidden: false
   selected: false
   packages:
+    - archlinux-logout-git
     - arcolinux-config-all-desktops-git
     - arcolinux-dconf-all-desktops-git
-    - arcolinux-gtk3-sardi-arc-git
     - arcolinux-local-xfce4-git
-    - archlinux-logout-git
     - arcolinux-polybar-git
+    - arcolinux-powermenu-git
     - arcolinux-rofi-git
     - arcolinux-rofi-themes-git
     - arcolinux-root-git
-    - archlinux-tweak-tool-git
     - arcolinux-volumeicon-git
-    - arcolinux-wallpapers-git
-    - arcolinux-xfce-git
     - arcolinux-xmonad-polybar-git
+    - arconet-xfce
     - awesome-terminal-fonts
     - dmenu
-    - feh
     - haskell-dbus
     - lxappearance
     - perl-checkupdates-aur
     - perl-www-aur
     - picom
+    - playerctl
     - polybar
-    - rofi
+    - pulseaudio
+    - rofi-lbonn-wayland
     - thunar
     - thunar-archive-plugin
     - thunar-volman

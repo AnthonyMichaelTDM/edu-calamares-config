@@ -4,43 +4,86 @@
   hidden: false
   selected: false
   immutable: false
-  expanded: true
+  expanded: false
   packages:
     - archlinux-logout-git
+    - arcolinux-alacritty-git
     - arcolinux-hyprland-git
-    - arcolinux-hyprland-profile-git
     - arcolinux-kitty-git
-    - arcolinux-wayland-profile-git
-    - hyprland-dev
+    - arcolinux-powermenu-git
+    - arcolinux-pywal-cache-git
+    - arcolinux-rofi-git
+    - arcolinux-rofi-themes-git
+    - arcolinux-wayland-app-hooks-git
+    - arconet-xfce
+    - grim
+    - hyprland-git
     - kitty
+    - lxappearance
+    - mako
+    - micro
+    - pamixer
+    - picom
+    - pulsemixer
+    - rofi-lbonn-wayland
     - swaybg
     - thunar
+    - thunar-archive-plugin
+    - thunar-volman
     - ttf-jetbrains-mono-nerd
-    - waybar-hyprland-git
+    - waybar-git
     - wofi
     - xfce4-terminal
-- name: "Desktop: Sway - Wayland"
-  description: "Installs sway - only on real metal"
+- name: "Desktop: Wayfire - Wayland"
+  description: "Installs wayfire - only on real metal"
   critical: false
   hidden: false
   selected: false
   immutable: false
-  expanded: true
+  expanded: false
   packages:
+    - a-candy-beauty-icon-theme-git
     - archlinux-logout-git
+    - arcolinux-alacritty-git
+    - arcolinux-foot-git
     - arcolinux-kitty-git
-    - arcolinux-nwg-drawer-git
-    - arcolinux-sway-git
-    - arcolinux-sway-profile-git
-    - arcolinux-wayland-profile-git
+    - arcolinux-pywal-cache-git
+    - arcolinux-rofi-git
+    - arcolinux-rofi-themes-git
+    - arcolinux-wallpapers-wayfire-git
+    - arcolinux-wayfire-git
+    - arcolinux-wayland-app-hooks-git
+    - arconet-xfce
+    - feh
+    - foot
+    - grim
     - kitty
-    - nwg-drawer-bin
-    - rofi-lbonn-wayland-only-git
-    - thunar
-    - sway-dev
+    - libdisplay-info
+    - libliftoff
+    - lxappearance
+    - mako
+    - micro
+    - pamixer
+    - picom
+    - pulsemixer
+    - polkit-gnome
+    - rofi-lbonn-wayland
+    - slurp
     - swaybg
     - swayidle
     - swaylock
-    - ttf-iosevka-nerd
-    - waybar
-
+    - swww
+    - thunar
+    - thunar-archive-plugin
+    - thunar-volman
+    - ttf-jetbrains-mono-nerd
+    - waybar-git
+    - wayfire-git
+    - wayfire-plugins-extra-git
+    - wcm-git
+    - wf-kill-git
+    - wf-shell-git
+    - wl-clipboard
+    - wofi
+    - xdg-desktop-portal-wlr
+    - xfce4-terminal

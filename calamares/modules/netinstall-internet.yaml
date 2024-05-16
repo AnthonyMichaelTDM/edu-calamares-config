@@ -6,7 +6,6 @@
   expanded: true
   packages:
     - brave-bin
-    - chrome-gnome-shell
     - chromium
     - chromium-widevine
     - falkon
@@ -16,8 +15,6 @@
     - google-chrome
     - icecat
     - librewolf-bin
-    - midori
-    - min
     - netsurf
     - opera
     - qutebrowser

@@ -15,6 +15,8 @@
     - mcomix
     - nitrogen
     - nomacs
+    - nomacs-git
+    - nomacs-qt6-git
     - pdfarranger
     - plank
     - arcolinux-plank-themes-git
@@ -38,7 +40,7 @@
   selected: false
   expanded: true
   packages:
-    - gitahead-bin
+    - gitahead
     - gitg
     - gitfiend
     - github-desktop-bin
@@ -61,8 +63,7 @@
   selected: false
   expanded: true
   packages:
-    - tor-browser
-    - tor
+    - torbrowser-launcher
     - privoxy
 - name: "Virtualbox for Linux kernel"
   description: "Installs virtualbox for linux kernel"

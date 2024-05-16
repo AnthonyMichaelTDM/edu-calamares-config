@@ -92,7 +92,6 @@
     - surfn-arc-breeze-icons-git
     - surfn-mint-y-icons-git
     - surfn-plasma-dark-icons-git
-    - surfn-plasma-dark-tela-icons-git
     - surfn-plasma-light-icons-git
     - tela-circle-icon-theme-git
     - vimix-icon-theme-git
@@ -132,7 +131,6 @@
   selected: false
   expanded: true
   packages:
-    - kvantum
     - kvantum-qt5-git
     - kvantum-qt6-git
     - kvantum-theme-materia
@@ -141,12 +139,3 @@
     - picom-jonaburg-git
     - picom-ibhagwan-git
     - picom-git
-- name: "Packages that will install plasma as a dependency"
-  description: "Plasma related"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: true
-  packages:
-    - qogir-kde-theme-git
-    - sweet-kde-theme-mars-git
