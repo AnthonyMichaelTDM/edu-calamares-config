@@ -12,7 +12,6 @@
     - audacity
     - byte
     - cava
-    - curseradio-git
     - deadbeef
     - deezer
     - elisa
@@ -32,7 +31,7 @@
     - shortwave
     - soundconverter
     - spotify
-    - spotifywm-git
+    - spotify-tui
     - spotify-adblock-git
     - strawberry
     - tauon-music-box
@@ -45,7 +44,7 @@
   packages:
     - celluloid
     - clapper
-    - freetube-bin
+    - freetube
     - guvcview
     - handbrake
     - hypnotix
@@ -69,7 +68,6 @@
     - plex-media-server
     - qtwebflix-git
     - simplescreenrecorder
-    - simplescreenrecorder-git
     - smplayer
     - vlc
     - yt-dlp

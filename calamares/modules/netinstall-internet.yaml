@@ -12,6 +12,7 @@
     - firefox
     - firefox-adblock-plus
     - firefox-ublock-origin
+    - zen-browser-bin
     - google-chrome
     - icecat
     - librewolf-bin
@@ -21,7 +22,6 @@
     - torbrowser-launcher
     - vivaldi
     - vivaldi-ffmpeg-codecs
-    - vivaldi-widevine
 - name: "Downloaders"
   description: "Downloaders"
   critical: false
@@ -50,8 +50,8 @@
   packages:
     - dropbox
     - insync
-    - megasync-bin
     - nextcloud-client
+    - syncthing-gtk
 - name: "Mail Clients"
   description: "Mail clients"
   critical: false
@@ -70,7 +70,5 @@
   selected: false
   expanded: true
   packages:
-    - mullvad-vpn-bin
-    - nordtray-bin
-    - nordpass-bin
+    - mullvad-vpn
     - nordvpn-bin

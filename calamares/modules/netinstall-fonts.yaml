@@ -10,8 +10,7 @@
     - adobe-source-serif-fonts
     - awesome-terminal-fonts
     - libertinus-font
-    - lohit-fonts
-    - nerd-fonts-source-code-pro
+    - nerd-fonts-source-code-pro # Note: need to find alternative
     - noto-fonts
     - noto-fonts-emoji
     - ttf-anonymous-pro
@@ -29,15 +28,13 @@
     - ttf-fira-mono
     - ttf-fira-sans
     - ttf-font-awesome
+    - ttf-google-fonts-git
     - ttf-hack
-    - ttf-hactor
-    - ttf-hellvetica
     - ttf-ibm-plex
     - ttf-inconsolata
     - ttf-iosevka-nerd
     - ttf-jetbrains-mono
     - ttf-jetbrains-mono-nerd
-    - ttf-joypixels
     - ttf-lato
     - ttf-liberation
     - ttf-linux-libertine

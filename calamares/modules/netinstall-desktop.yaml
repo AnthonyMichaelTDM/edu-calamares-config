@@ -1,3 +1,5 @@
+# This is unused, but left here for reference in case I want to use it later.
+
 - name: "Desktop: Awesome"
   description: "Installs awesome desktop"
   critical: false

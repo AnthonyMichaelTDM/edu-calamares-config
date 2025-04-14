@@ -18,7 +18,6 @@
     - knights
     - mari0
     - minecraft-launcher
-    - multimc-git
     - neverball
     - sauerbraten
     - sauerbraten-data
@@ -35,30 +34,23 @@
   selected: false
   expanded: true
   packages:
-    - arcolinux-meta-steam-amd
-    - arcolinux-meta-steam-intel
-    - arcolinux-meta-steam-nvidia
-    - gamehub-bin
+    - arcolinux-meta-steam
+    - gamehub
     - gamemode
     - game-devices-udev
-    - goverlay-bin
+    - goverlay
     - heroic-games-launcher-bin
-    - itch
+    - itch-setup-bin
     - legendary
     - lutris
     - mangohud
     - minigalaxy
     - playonlinux
-    - proton-community-updater
     - proton-ge-custom-bin
-    - protontricks
     - protontricks-git
-    - protonup-qt-bin
+    - protonup-qt
     - protonup-git
     - rare
-    - replay-sorcery
     - supergfxctl
-    - steam-buddy
-    - steam-tweaks
     - steamtinkerlaunch
     - vkbasalt

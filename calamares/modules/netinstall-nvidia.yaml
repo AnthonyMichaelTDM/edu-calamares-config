@@ -112,8 +112,6 @@
     - bbswitch
     - bbswitch-dkms
     - bumblebee
-    - bumblebee-status
-    - bumblebee-status-git
     - cuda
     - disper
     - envycontrol
@@ -123,11 +121,8 @@
     - nvidia-lts
     - nvidia-open
     - nvidia-open-dkms
-    - nvidia-prime
-    - nvidia-xrun
+    - nvidia-prim
     - nvtop
-    - optimus-manager
-    - optimus-manager-qt
     - primus
     - switcheroo-control
     - supergfxctl

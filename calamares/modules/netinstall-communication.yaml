@@ -35,7 +35,6 @@
   expanded: true
   packages:
     - anydesk-bin
-    - arcolinux-teamviewer
     - krdc
     - nomachine
     - realvnc-vnc-server

@@ -22,17 +22,6 @@
     - arcolinux-plank-themes-git
     - screenkey-git
     - variety
-- name: "Conky"
-  description: "Conky and conky collection"
-  critical: false
-  hidden: false
-  selected: false
-  expanded: true
-  packages:
-    - arcolinux-conky-collection-git
-    - arcolinux-pipemenus-git
-    - conky-lua-archers
-    - yad
 - name: "Git"
   description: "Git applications"
   critical: false

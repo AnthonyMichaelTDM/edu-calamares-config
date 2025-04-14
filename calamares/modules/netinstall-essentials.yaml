@@ -100,6 +100,8 @@
     - tlp
     - upower
     - system76-power
+    - powertop
+    - power-profiles-daemon
 - name: "Printing Support"
   description: "Add Printer Support"
   hidden: false
@@ -163,10 +165,9 @@
         expanded: false
         packages:
            - wttr
-           - cpufetch-git
-           - curseradio-git
+           - cpufetch
+          #  - curseradio-git
            - fastfetch
-           - arcolinux-fastfetch-git
            - tty-clock
       - name: "Development Tools"
         description: "Development Tools"
@@ -205,6 +206,7 @@
         packages:
            - upower
            - powertop
+           - power-profiles-daemon
            - tlp
            - system76-power
            - brightnessctl
@@ -216,21 +218,20 @@
         hidden: false
         expanded: false
         packages:
-            - libreoffice-fresh
             - geogebra
+            - libreoffice-fresh
+            - obsidian
+            - opentabletdriver
+            - syncthing-gtk
             - xournalpp
             - zotero
-            - obsidian
-            - syncthing-gtk
       - name: "Gaming"
         description: "Gaming Apps"
         selected: false
         hidden: false
         expanded: false
         packages:
-            - arcolinux-meta-steam-amd
-            - arcolinux-meta-steam-intel
-            - arcolinux-meta-steam-nvidia
+            - arcolinux-meta-steam
       - name: "Vim Plugins"
         description: "Vim Plugins"
         selected: false
