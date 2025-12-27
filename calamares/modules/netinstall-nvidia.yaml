@@ -1,5 +1,5 @@
-- name: "Nvidia-dkms for linux kernel - installed by default"
-  description: "Installs nvidia-dkms for linux kernel"
+- name: "Nvidia-open-dkms for linux kernel - installed by default"
+  description: "Installs nvidia-open-dkms for linux kernel"
   critical: false
   hidden: false
   selected: false
@@ -8,11 +8,11 @@
   packages:
     - linux
     - linux-headers
-    - nvidia-dkms
+    - nvidia-open-dkms
     - nvidia-settings
     - nvidia-utils
-- name: "Nvidia-dkms for linux-lts kernel"
-  description: "Installs nvidia-dkms for linux-lts kernel"
+- name: "Nvidia-open-dkms for linux-lts kernel"
+  description: "Installs nvidia-open-dkms for linux-lts kernel"
   critical: false
   hidden: false
   selected: false
@@ -21,11 +21,11 @@
   packages:
     - linux-lts
     - linux-lts-headers
-    - nvidia-dkms
+    - nvidia-open-dkms
     - nvidia-settings
     - nvidia-utils
-- name: "Nvidia-dkms for linux-hardened kernel"
-  description: "Installs nvidia-dkms for linux-hardened kernel"
+- name: "Nvidia-open-dkms for linux-hardened kernel"
+  description: "Installs nvidia-open-dkms for linux-hardened kernel"
   critical: false
   hidden: false
   selected: false
@@ -34,11 +34,11 @@
   packages:
     - linux-hardened
     - linux-hardened-headers
-    - nvidia-dkms
+    - nvidia-open-dkms
     - nvidia-settings
     - nvidia-utils
-- name: "Nvidia-dkms for linux-zen kernel"
-  description: "Installs nvidia-dkms for linux-zen kernel"
+- name: "Nvidia-open-dkms for linux-zen kernel"
+  description: "Installs nvidia-open-dkms for linux-zen kernel"
   critical: false
   hidden: false
   selected: false
@@ -47,18 +47,18 @@
   packages:
     - linux-zen
     - linux-zen-headers
-    - nvidia-dkms
+    - nvidia-open-dkms
     - nvidia-settings
     - nvidia-utils
-- name: "Nvidia-dkms for linux-cachyos kernel"
-  description: "Installs nvidia-dkms for the cachyos kernel"
+- name: "Nvidia-open-dkms for linux-cachyos kernel"
+  description: "Installs nvidia-open-dkms for the cachyos kernel"
   critical: false
   hidden: false
   selected: false
   packages:
     - linux-cachyos
     - linux-cachyos-headers
-    - nvidia-dkms
+    - nvidia-open-dkms
     - nvidia-settings
     - nvidia-utils
 - name: "Nvidia 340 drivers"
@@ -117,11 +117,10 @@
     - envycontrol
     - gwe
     - nvflash
-    - nvidia
-    - nvidia-lts
     - nvidia-open
+    - nvidia-open-lts
     - nvidia-open-dkms
-    - nvidia-prim
+    - nvidia-prime
     - nvtop
     - primus
     - switcheroo-control

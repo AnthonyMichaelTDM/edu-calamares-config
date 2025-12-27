@@ -38,12 +38,12 @@
   hidden: false
   selected: false
   expanded: false
-    - nvidia-dkms-tkg
-    - nvidia-utils-tkg
-    - nvidia-settings-tkg
-    - opencl-nvidia-tkg
-    - lib32-nvidia-utils-tkg
-    - lib32-opencl-nvidia-tkg
+    - nvidia-open-dkms
+    - nvidia-utils
+    - nvidia-settings
+    - opencl-nvidia
+    - lib32-nvidia-utils
+    - lib32-opencl-nvidia
 - name: "Optimus Manager"
   description: "Enable iGPU/nVidia GPU Switching"
   critical: false
